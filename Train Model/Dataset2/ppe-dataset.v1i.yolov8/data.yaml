@@ -1,0 +1,13 @@
+train: C:\Users\aanan\Desktop\AIML-PROJECT-CODE\model_emergency_teams\ppe-dataset.v1i.yolov8\train\images
+val: C:\Users\aanan\Desktop\AIML-PROJECT-CODE\model_emergency_teams\ppe-dataset.v1i.yolov8\valid\images
+test: C:\Users\aanan\Desktop\AIML-PROJECT-CODE\model_emergency_teams\ppe-dataset.v1i.yolov8\test\images
+
+nc: 5
+names: ['boots', 'glasses', 'gloves', 'helmet', 'vest']
+
+roboflow:
+  workspace: innhandy
+  project: ppe-dataset-kylgn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/innhandy/ppe-dataset-kylgn/dataset/1

@@ -1,0 +1,13 @@
+train: C:\Users\aanan\Desktop\AIML-PROJECT-CODE\fire_smoke_emergency_veh\incident-pictures.v4i.yolov8\train\images
+val: C:\Users\aanan\Desktop\AIML-PROJECT-CODE\fire_smoke_emergency_veh\incident-pictures.v4i.yolov8\valid\images
+test: C:\Users\aanan\Desktop\AIML-PROJECT-CODE\fire_smoke_emergency_veh\incident-pictures.v4i.yolov8\test\images
+
+nc: 13
+names: ['Ambulance', 'Bus', 'Car', 'Fire', 'Fire-truck', 'Hazmat-Sign', 'License-plate', 'Person', 'Police-car', 'Rain-residue', 'Ship', 'Smoke', 'Truck']
+
+roboflow:
+  workspace: gezamelijke-brandweer
+  project: incident-pictures
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gezamelijke-brandweer/incident-pictures/dataset/4
