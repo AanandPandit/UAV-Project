@@ -1,7 +1,9 @@
 PyQt5
-opencv-python-headless
+opencv-python
 numpy
 requests
 ultralytics
 torch
 ping3
+fpdf
+Pillow
