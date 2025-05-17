@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model weights
+# *.pt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset folders and contents
+Train Model/Dataset*/**/images/
+Train Model/Dataset*/**/labels/
+Train Model/Dataset*/**/data.yaml
+Train Model/Dataset*/**/README*
+
+# UAV Dashboard output files
+UAV Dashboard/output/*.avi
+UAV Dashboard/output/*.mkv
+UAV Dashboard/output/*.jpg
+UAV Dashboard/output/*.pdf
+
+# Arduino build files 
+*.elf
+*.hex
+
+# VS Code and other IDE files 
+.vscode/
+*.code-workspace
+
+# Environment / dependency files
+.env
+*.egg-info/
+dist/
+build/
